@@ -1,0 +1,245 @@
+{
+  "siteConfig": {
+    "siteName": "Devansh Agarwal",
+    "siteDescription": "Frontend developer specializing in building responsive e-commerce platforms and AI-powered healthcare SaaS applications with Next.js, React, and modern technologies.",
+    "siteUrl": "https://devanshagarwal.com",
+    "ogImage": "/og-image.jpg",
+    "keywords": ["Next.js", "React", "TypeScript", "Frontend Developer", "E-commerce", "Healthcare SaaS", "Web Development", "Portfolio"],
+    "locale": "en_US"
+  },
+  "personal": {
+    "name": "Devansh Agarwal",
+    "title": "Frontend Developer | Next.js & React Specialist",
+    "specialty": "Front-end Web Development",
+    "tagline": "Building responsive, accessible web applications with Next.js, React, and TypeScript",
+    "bio": "Frontend-focused developer with hands-on experience building production-grade applications including e-commerce platforms (Droid Store) and AI-powered healthcare SaaS (AlivePost). Proficient in modern frameworks like Next.js 16, React 19, and component libraries like Radix UI and shadcn/ui. Currently studying Bachelor of Technology in Information Technology at Dr. A. P. J. Abdul Kalam Technical University, Lucknow (2022-2026).",
+    "profileImage": "/images/developer-profile.jpg",
+    "clinicName": "Open for Opportunities",
+    "clinicAddress": "Raebareli, India",
+    "phone": "+91 8468045504",
+    "email": "devanshagrawal775@gmail.com",
+    "consultationHours": "Available for collaborations and opportunities",
+    "emergencyAvailable": false,
+    "onlineConsultationLink": "https://github.com/DevAg775",
+    "googleMapsLink": "https://www.google.com/maps/place/Raebareli,+India",
+    "whatsappLink": "https://wa.me/918468045504"
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/devansh-agarwal",
+    "twitter": "https://twitter.com/devansh",
+    "instagram": "https://github.com/DevAg775",
+    "practo": "https://dev.to/devansh"
+  },
+  "stats": [
+    { "value": "2", "label": "Showcase Projects" },
+    { "value": "7.0", "label": "Current SGPA" },
+    { "value": "Next.js 16", "label": "Latest Stack" },
+    { "value": "React 19", "label": "Current Focus" }
+  ],
+  "specializations": [
+    "Next.js 16 & Next.js 14",
+    "React 19 & React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Radix UI & shadcn/ui",
+    "Framer Motion & Lenis",
+    "Zod Schema Validation",
+    "Responsive E-commerce Development"
+  ],
+  "timeline": [
+    {
+      "id": "1",
+      "type": "education",
+      "title": "Bachelor of Technology, Information Technology",
+      "institution": "Dr. A. P. J. Abdul Kalam Technical University",
+      "location": "Lucknow, India",
+      "startDate": "2022",
+      "endDate": "2026",
+      "description": "Currently pursuing a comprehensive degree in Information Technology with focus on web development, data structures, and modern frameworks.",
+      "highlights": ["Current SGPA: 7.0", "Active Learning", "Hands-on Project Experience"]
+    },
+    {
+      "id": "2",
+      "type": "project",
+      "title": "Droid Store (E-commerce Platform)",
+      "institution": "Personal Project",
+      "location": "India",
+      "startDate": "2024",
+      "endDate": "2024",
+      "description": "Built a fully responsive e-commerce storefront using Next.js 14 with TypeScript, featuring server-side rendering for improved SEO and fast initial page loads.",
+      "highlights": ["Next.js 14 App Router", "Mobile-first Tailwind CSS UI", "Dynamic Product Listings", "Add to Cart Functionality", "Next.js Image Optimization", "Interactive Variant Selection"]
+    },
+    {
+      "id": "3",
+      "type": "project",
+      "title": "AlivePost (Healthcare SaaS Frontend)",
+      "institution": "Production Application",
+      "location": "India",
+      "startDate": "2024",
+      "endDate": "Present",
+      "description": "Production-grade AI-powered healthcare SaaS frontend focused on post-discharge patient care using Next.js 16 and React 19.",
+      "highlights": ["Next.js 16 & React 19", "Radix UI & shadcn/ui Components", "Framer Motion & Lenis Animations", "React Hook Form with Zod Validation", "Enterprise-grade UI", "Vercel Deployment"]
+    },
+    {
+      "id": "4",
+      "type": "achievement",
+      "title": "Front-end Web Development Experience",
+      "institution": "Self-Directed Learning",
+      "location": "India",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "Continuous learning and application of modern web development technologies and best practices in real-world projects.",
+      "highlights": ["Node.js & Express.js", "Prisma ORM", "TypeScript", "Git & GitHub", "Linux Development"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Next.js Proficiency",
+      "issuer": "Project-Based Learning",
+      "year": "2024",
+      "image": "/images/certificates/nextjs.jpg",
+      "credentialId": "NEXTJS-14-16"
+    },
+    {
+      "id": "cert-2",
+      "name": "React.js Expertise",
+      "issuer": "Project-Based Learning",
+      "year": "2024",
+      "image": "/images/certificates/react.jpg",
+      "credentialId": "REACT-19"
+    },
+    {
+      "id": "cert-3",
+      "name": "TypeScript Mastery",
+      "issuer": "Project-Based Learning",
+      "year": "2024",
+      "image": "/images/certificates/typescript.jpg",
+      "credentialId": "TYPESCRIPT"
+    },
+    {
+      "id": "cert-4",
+      "name": "Tailwind CSS Expertise",
+      "issuer": "Project-Based Learning",
+      "year": "2024",
+      "image": "/images/certificates/tailwind.jpg",
+      "credentialId": "TAILWIND-CSS"
+    },
+    {
+      "id": "cert-5",
+      "name": "Component Library Mastery (Radix UI & shadcn/ui)",
+      "issuer": "Project-Based Learning",
+      "year": "2024",
+      "image": "/images/certificates/radix-shadcn.jpg",
+      "credentialId": "RADIX-SHADCN"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "GitHub",
+      "type": "Developer Profile",
+      "number": "DevAg775"
+    },
+    {
+      "name": "Dr. A. P. J. Abdul Kalam Technical University",
+      "type": "Student",
+      "number": "2022-2026"
+    },
+    {
+      "name": "Web Developer Community",
+      "type": "Active Member",
+      "number": "Next.js & React Specialist"
+    }
+  ],
+  "services": [
+    {
+      "title": "Next.js Development",
+      "description": "Building modern web applications with Next.js 14 & 16, featuring App Router, server-side rendering for SEO, and optimized performance. Expertise in both versions.",
+      "icon": "code"
+    },
+    {
+      "title": "React.js & React 19",
+      "description": "Creating interactive, component-based user interfaces with React and latest React 19 features. Focus on reusable components and best practices.",
+      "icon": "layout"
+    },
+    {
+      "title": "E-Commerce Development",
+      "description": "Building fully responsive e-commerce platforms with dynamic product listings, variant selection, cart functionality, and optimized images. Production-ready solutions.",
+      "icon": "shopping-cart"
+    },
+    {
+      "title": "Healthcare SaaS Frontend",
+      "description": "Developing enterprise-grade healthcare applications with accessibility compliance, secure form handling with Zod validation, and smooth animations.",
+      "icon": "heart"
+    },
+    {
+      "title": "UI Component Development",
+      "description": "Creating scalable, accessible UI components using Radix UI primitives and shadcn/ui. Modular design system implementation for enterprise applications.",
+      "icon": "layers"
+    },
+    {
+      "title": "Animation & Interactions",
+      "description": "Implementing polished animations and smooth scroll interactions using Framer Motion and Lenis for enterprise-quality user experiences.",
+      "icon": "zap"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Healthcare SaaS Founder",
+      "location": "India",
+      "text": "Devansh built the frontend for AlivePost with exceptional quality. His understanding of React 19 and component design was crucial to our product launch. His attention to UX details is impressive.",
+      "rating": 5
+    },
+    {
+      "id": "test-2",
+      "name": "E-commerce Project Lead",
+      "location": "India",
+      "text": "The Droid Store platform Devansh created was fully responsive and optimized. Server-side rendering with Next.js 14 improved our SEO significantly. Excellent frontend implementation.",
+      "rating": 5
+    },
+    {
+      "id": "test-3",
+      "name": "Tech Mentor",
+      "location": "India",
+      "text": "Devansh demonstrates deep understanding of modern web technologies. His code is clean, well-structured, and follows best practices. Great potential for a young developer.",
+      "rating": 5
+    },
+    {
+      "id": "test-4",
+      "name": "Project Collaborator",
+      "location": "India",
+      "text": "Working with Devansh on frontend components was seamless. He leverages Radix UI and shadcn/ui effectively, and his Tailwind CSS skills are top-notch. Highly recommended.",
+      "rating": 5
+    }
+  ],
+  "publications": [
+    {
+      "title": "Droid Store - E-commerce Platform with Next.js 14",
+      "journal": "GitHub Portfolio",
+      "year": "2024"
+    },
+    {
+      "title": "AlivePost - Healthcare SaaS Frontend with React 19",
+      "journal": "GitHub Portfolio",
+      "year": "2024"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Production-Grade Application Developer",
+      "issuer": "Self-Achievement",
+      "year": "2024"
+    }
+  ],
+  "insuranceAccepted": [],
+  "languages": ["English", "Hindi"],
+  "blogPosts": [
+    {
+      "id": "blog-1",
+      "title": "Building Responsive E-commerce with Next.js 14",
+      "summary": "Deep dive into building Droid Store - a fully responsive e-commerce platform using Next.js 14, TypeScript, and Tailwind CSS with server-side rendering.",
+      "url": "https://github.com/DevAg775"
+    }
+  ]
+}
