@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { GraduationCap, Briefcase, Award, ChevronRight, Code, ExternalLink } from "lucide-react";
+import { GraduationCap, Briefcase, Award, ChevronRight, Code } from "lucide-react";
 
 interface TimelineItem {
   id: string;
@@ -10,7 +10,7 @@ interface TimelineItem {
   title: string;
   institution: string;
   location: string;
-  startDate: string; // Ensure these are ISO strings or valid date strings (e.g., "2023-01-01")
+  startDate: string;
   endDate: string;
   description: string;
   highlights: string[];
@@ -60,10 +60,8 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
 
   const filters: { label: string; value: FilterType }[] = [
     { label: "All", value: "all" },
-    { label: "Experience", value: "employment" },
     { label: "Education", value: "education" },
     { label: "Projects", value: "project" },
-    { label: "Awards", value: "achievement" },
   ];
 
   const filteredItems =
@@ -71,9 +69,8 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
       ? items
       : items.filter((item) => item.type === activeFilter);
 
-  // Improved sorting logic using Date objects
   const sortedItems = [...filteredItems].sort(
-    (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+    (a, b) => parseInt(b.startDate) - parseInt(a.startDate)
   );
 
   return (
@@ -85,7 +82,7 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
             Career Journey
           </p>
           <h2 className="font-serif text-2xl font-medium text-foreground sm:text-4xl lg:text-5xl">
-            Professional Experience
+            <span className="text-balance">Professional Experience</span>
           </h2>
         </div>
 
@@ -123,6 +120,7 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                   isExpanded ? "shadow-lg" : "hover:shadow-md"
                 )}
               >
+                {/* Gradient Background */}
                 <div
                   className={cn(
                     "absolute inset-0 bg-gradient-to-r opacity-0 transition-opacity duration-300 group-hover:opacity-100",
@@ -130,10 +128,12 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                   )}
                 />
 
+                {/* Content */}
                 <button
                   onClick={() => setExpandedId(isExpanded ? null : item.id)}
                   className="relative flex w-full items-center gap-3 p-4 text-left sm:gap-4 sm:p-5"
                 >
+                  {/* Icon */}
                   <div
                     className={cn(
                       "flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-110 sm:h-12 sm:w-12 sm:rounded-xl",
@@ -143,6 +143,7 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                     <Icon className="h-4 w-4 sm:h-5 sm:w-5" />
                   </div>
 
+                  {/* Main Content */}
                   <div className="min-w-0 flex-1">
                     <div className="mb-0.5 flex flex-wrap items-center gap-1 sm:mb-1 sm:gap-2">
                       <span className="font-mono text-[10px] text-muted-foreground sm:text-xs">
@@ -158,6 +159,7 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                     </p>
                   </div>
 
+                  {/* Arrow */}
                   <ChevronRight
                     className={cn(
                       "h-4 w-4 flex-shrink-0 text-muted-foreground transition-transform duration-300 sm:h-5 sm:w-5",
@@ -166,10 +168,11 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                   />
                 </button>
 
+                {/* Expanded Content */}
                 <div
                   className={cn(
-                    "grid transition-all duration-300 ease-in-out",
-                    isExpanded ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                    "grid transition-all duration-300",
+                    isExpanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
                   )}
                 >
                   <div className="overflow-hidden">
@@ -178,27 +181,21 @@ export function InteractiveTimeline({ items }: InteractiveTimelineProps) {
                         <p className="text-xs leading-relaxed text-muted-foreground sm:text-sm">
                           {item.description}
                         </p>
-                        
                         {item.location && (
-                          <p className="mt-2 text-[10px] text-muted-foreground/70 sm:text-xs italic">
+                          <p className="mt-2 text-[10px] text-muted-foreground/70 sm:text-xs">
                             {item.location}
                           </p>
                         )}
-
                         {item.url && (
-  <a
-    href={item.url}
-    target="_blank"
-    rel="noopener noreferrer"
-    // This is the critical line
-    onClick={(e) => {
-      e.stopPropagation(); 
-    }}
-    className="relative z-10 mt-4 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
-  >
-    View Project <ExternalLink className="h-3 w-3" />
-  </a>
-)}
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-3 inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                          >
+                            View Project →
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>

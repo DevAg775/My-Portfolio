@@ -67,6 +67,7 @@
       "startDate": "2024",
       "endDate": "2024",
       "description": "Built a fully responsive e-commerce storefront using Next.js 14 with TypeScript, featuring server-side rendering for improved SEO and fast initial page loads.",
+      "url": "https://droidstore.vercel.app/",
       "highlights": ["Next.js 14 App Router", "Mobile-first Tailwind CSS UI", "Dynamic Product Listings", "Add to Cart Functionality", "Next.js Image Optimization", "Interactive Variant Selection"]
     },
     {
@@ -78,6 +79,7 @@
       "startDate": "2024",
       "endDate": "Present",
       "description": "Production-grade AI-powered healthcare SaaS frontend focused on post-discharge patient care using Next.js 16 and React 19.",
+      "url": "https://alivepost.com/",
       "highlights": ["Next.js 16 & React 19", "Radix UI & shadcn/ui Components", "Framer Motion & Lenis Animations", "React Hook Form with Zod Validation", "Enterprise-grade UI", "Vercel Deployment"]
     },
     {
