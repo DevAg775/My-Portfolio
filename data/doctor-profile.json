@@ -64,8 +64,8 @@
       "title": "Droid Store (E-commerce Platform)",
       "institution": "Personal Project",
       "location": "India",
-      "startDate": "2024",
-      "endDate": "2024",
+      "startDate": "2025",
+      "endDate": "2025",
       "description": "Built a fully responsive e-commerce storefront using Next.js 14 with TypeScript, featuring server-side rendering for improved SEO and fast initial page loads.",
       "url": "https://droidstore.vercel.app/",
       "highlights": ["Next.js 14 App Router", "Mobile-first Tailwind CSS UI", "Dynamic Product Listings", "Add to Cart Functionality", "Next.js Image Optimization", "Interactive Variant Selection"]
@@ -76,7 +76,7 @@
       "title": "AlivePost (Healthcare SaaS Frontend)",
       "institution": "Production Application",
       "location": "India",
-      "startDate": "2024",
+      "startDate": "2026",
       "endDate": "Present",
       "description": "Production-grade AI-powered healthcare SaaS frontend focused on post-discharge patient care using Next.js 16 and React 19.",
       "url": "https://alivepost.com/",
@@ -88,7 +88,7 @@
       "title": "Front-end Web Development Experience",
       "institution": "Self-Directed Learning",
       "location": "India",
-      "startDate": "2023",
+      "startDate": "2025",
       "endDate": "Present",
       "description": "Continuous learning and application of modern web development technologies and best practices in real-world projects.",
       "highlights": ["Node.js & Express.js", "Prisma ORM", "TypeScript", "Git & GitHub", "Linux Development"]
@@ -99,7 +99,7 @@
       "id": "cert-1",
       "name": "Next.js Proficiency",
       "issuer": "Project-Based Learning",
-      "year": "2024",
+      "year": "2025",
       "image": "/images/certificates/nextjs.jpg",
       "credentialId": "NEXTJS-14-16"
     },
@@ -123,7 +123,7 @@
       "id": "cert-4",
       "name": "Tailwind CSS Expertise",
       "issuer": "Project-Based Learning",
-      "year": "2024",
+      "year": "2025",
       "image": "/images/certificates/tailwind.jpg",
       "credentialId": "TAILWIND-CSS"
     },
@@ -131,7 +131,7 @@
       "id": "cert-5",
       "name": "Component Library Mastery (Radix UI & shadcn/ui)",
       "issuer": "Project-Based Learning",
-      "year": "2024",
+      "year": "2025",
       "image": "/images/certificates/radix-shadcn.jpg",
       "credentialId": "RADIX-SHADCN"
     }
@@ -219,19 +219,19 @@
     {
       "title": "Droid Store - E-commerce Platform with Next.js 14",
       "journal": "GitHub Portfolio",
-      "year": "2024"
+      "year": "2025"
     },
     {
       "title": "AlivePost - Healthcare SaaS Frontend with React 19",
       "journal": "GitHub Portfolio",
-      "year": "2024"
+      "year": "2026"
     }
   ],
   "awards": [
     {
       "name": "Production-Grade Application Developer",
       "issuer": "Self-Achievement",
-      "year": "2024"
+      "year": "2025"
     }
   ],
   "insuranceAccepted": [],
